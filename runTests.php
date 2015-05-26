@@ -14,7 +14,7 @@ include 'dataflow.php';
 
 $testFailures = testSystem( $systemTestData );
 
-if( '0' == trim( $testFailures ) )
+if( ! $testFailures )
 {
 	# Nothing failed
 	echo 'All tests passed';

@@ -237,7 +237,7 @@ function testSystem( $systemTestData )
 		$failLog .= $testResults[ 1 ] . PHP_EOL;
 	}
 
-	if( 0 == $failCount && '' == $failLog )
+	if( 0 == $failCount && '' == trim( $failLog ) )
 	{
 		# All tests were passed!
 		# If a flag is used in the filesystem to indicate failing tests, it would be cleared at this point
