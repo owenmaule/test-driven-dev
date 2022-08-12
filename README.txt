@@ -1,3 +1,6 @@
+Note: This was an assignment but I do not have the questions here. Sorry, it could be confusing.
+
+
 Owen Maule Test Driven Development walkthrough
 
 Language used will be PHP.
